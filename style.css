@@ -1,0 +1,128 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: fantasy;
+}
+
+.header {
+  text-decoration: underline;
+}
+
+.input {
+  width: 150px;
+  height: 100px;
+}
+input[type='number'] {
+  text-align: center;
+  font-weight: bold;
+  font-size: xx-large;
+  border: 4px dashed black;
+}
+
+.game-interface {
+  background: url(img/Bg.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.info_enteranumber {
+  font: 300;
+  margin-left: 10px;
+}
+
+.check {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-weight: bold;
+  color: aquamarine;
+  background-color: rgba(45, 45, 45, 0.789);
+  outline: none;
+  border: 2px solid white;
+  border-radius: 10px;
+  width: 100px;
+  height: 50px;
+}
+
+.reset {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-weight: bold;
+  color: aquamarine;
+  background-color: rgba(21, 21, 21, 0.863);
+  outline: none;
+  border: 2px solid white;
+  border-radius: 10px;
+  width: 100px;
+  height: 50px;
+}
+
+.reset:hover {
+  transition-duration: 1.5s;
+  font-weight: bold;
+  border: 2px solid aquamarine;
+  background-color: #8ec5fc;
+  background-image: linear-gradient(62deg, #8ec5fc 0%, #e0c3fc 100%);
+
+  color: black;
+}
+
+.check:hover {
+  transition-duration: 1.5s;
+  font-weight: bold;
+  border: 2px solid aquamarine;
+  background-color: #8ec5fc;
+  background-image: linear-gradient(62deg, #8ec5fc 0%, #e0c3fc 100%);
+
+  color: black;
+}
+
+.close {
+  width: 25px;
+  border-radius: 25px;
+  border: 2px solid grey;
+  outline: none;
+  background: transparent;
+}
+
+.score {
+  margin: 10px;
+  width: 30px;
+  height: 40px;
+}
+
+.highscore {
+  margin: 10px;
+  width: 30px;
+  height: 40px;
+}
+
+input[type='text'] {
+  border: none;
+  outline: none;
+  width: 100px;
+  height: 50px;
+}
+/* .scoreboard {
+  width: 100px;
+  height: 100px;
+  background-color: black;
+} */
+
+.randomdisplay {
+  font-size: xx-large;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 150px;
+  height: 150px;
+  color: whitesmoke;
+  background-color: black;
+}
+
+.random {
+  font-weight: bold;
+  font-size: xx-large;
+}
